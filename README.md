@@ -1,7 +1,16 @@
 # Identifying Non-Traditional Cybersecurity Candidates
-### Team Scrape and Save 
+### Team Scrape and Save: 
+- Aishwarya Arab
+- Hannah Abraham
+- Mrinal Moses Marshall
+- Mohankrishna Reddy Earla
+- Neethy Battula
+- Priyanka Mereddy  
+
+### Capstone Advisor: Dr. Reyna Rollins 
 ### George Mason University
 ### DAEN 690
+
 ---
 
 **Project Description** 
