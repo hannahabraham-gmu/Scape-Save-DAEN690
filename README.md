@@ -4,7 +4,7 @@
 - Hannah Abraham
 - Mrinal Moses Marshall
 - Mohankrishna Reddy Earla
-- Neethy Battula
+- Neethu Battula
 - Priyanka Mereddy  
 
 ### Capstone Advisor: Dr. Reyna Rollins 
