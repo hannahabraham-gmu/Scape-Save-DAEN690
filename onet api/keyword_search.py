@@ -1,7 +1,7 @@
-#!python3
 from OnetWebService import OnetWebService
 import sys
-
+import requests
+import json
 def get_user_input(prompt):
     result = ''
     while (len(result) == 0):
@@ -24,7 +24,7 @@ print("")
 kwquery = get_user_input('Keyword search query')
 kwresults = onet_ws.call('online/search',
                          ('keyword', kwquery),
-                         ('end', 5))
+                         ('end', 2))
 check_for_error(kwresults)
 if (not 'occupation' in kwresults) or (0 == len(kwresults['occupation'])):
     print("No relevant occupations were found.")
@@ -33,4 +33,3 @@ else:
     print("Most relevant occupations for \"" + kwquery + "\":")
     for occ in kwresults['occupation']:
         print("  " + occ['code'] + " - " + occ['title'])
-    print("")
