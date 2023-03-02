@@ -45,6 +45,16 @@ try:
                 job_posting["location"] = columns[2].text.strip()
                 job_posting["job_link"] = 'https://www.careeronestop.org'+columns[0].find("a")["href"].replace(' ', '%20')
                 job_postings.append(job_posting)
+            if keyword == 'Chief Information Security Officer (CISO)' and page_num == 6:
+                break
+            if keyword == 'Cybersecurity Analyst' and page_num == 40:
+                break
+            if keyword == 'Cybersecurity Engineer' and page_num == 94:
+                break
+            if keyword == 'Security Architect' and page_num == 128:
+                break
+            if keyword == 'Computer Forensics Analyst' and page_num == 100:
+                break
         # search_box.clear()
         driver.back()
         time.sleep(10)
